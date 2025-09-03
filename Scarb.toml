@@ -1,0 +1,13 @@
+[package]
+name = "cair_tutorials"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+alexandria_math = "0.3.0" 
+
+[dev-dependencies]
+cairo_test = "2.11.4"
+
+[cairo]
+enable-gas=false
